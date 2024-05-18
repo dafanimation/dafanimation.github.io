@@ -1,0 +1,54 @@
+<button id="btnrecordscreen" onclick="togglerecordscreen()">
+  <svg width="60" height="60">
+    <path
+          id="enter-recordscreen"
+          stroke="red"
+          stroke-width="3"
+          fill="none"
+          d="
+             M 30, 4 L 4,4 L 4, 30
+             M 30, 4 L 56,4 L 56, 30
+             M 56, 20 L 56,56 L 30, 56
+             M 30, 56 L 4,56 L 4, 20"
+          />
+    <path
+          id="exit-recordscreen"
+          stroke="transparent"
+          stroke-width="6"
+          fill="red"
+          d="
+             M 20, 4 L 20,20 L 4, 20
+             M 40, 4 L 40,20 L 56, 20
+             M 56, 40 L 40,40 L 40, 56
+             M 20, 56 L 20,40 L 4, 40"
+          />
+  </svg>
+</button>
+<!-- Allow Webcam or it won't work -->
+<pre id="ascii-art-1"></pre> 
+<button id="fullscreen" onclick="toggleFullscreen()">
+  <svg width="60" height="60">
+    <path
+          id="enter-fullscreen"
+          stroke="white"
+          stroke-width="3"
+          fill="none"
+          d="
+             M 20, 4 L 4,4 L 4, 20
+             M 40, 4 L 56,4 L 56, 20
+             M 56, 40 L 56,56 L 40, 56
+             M 20, 56 L 4,56 L 4, 40"
+          />
+    <path
+          id="exit-fullscreen"
+          stroke="transparent"
+          stroke-width="3"
+          fill="none"
+          d="
+             M 20, 4 L 20,20 L 4, 20
+             M 40, 4 L 40,20 L 56, 20
+             M 56, 40 L 40,40 L 40, 56
+             M 20, 56 L 20,40 L 4, 40"
+          />
+  </svg>
+</button>
